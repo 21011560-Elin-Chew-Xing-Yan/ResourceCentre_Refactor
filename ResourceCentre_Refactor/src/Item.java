@@ -22,9 +22,11 @@ public class Item {
 				dueDate);
 				
 		return itemInfo;
+		
+	
 	}
 	
-	public String showAvailability(boolean isAvailable) {
+	public  String showAvailability(boolean isAvailable) {
 		String avail;
 
 		if (isAvailable == true) {
@@ -34,6 +36,11 @@ public class Item {
 		}
 		return avail;
 	}
+
+
+	
+		
+
 	
 	public String getAssetTag() {
 		return assetTag;
